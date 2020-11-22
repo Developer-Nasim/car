@@ -1,0 +1,564 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area .menu-area nav ul li a { 
+        font-size: 16px; 
+    }
+    .dropDown-menu:after {
+        content: "";
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        border-top: 10px solid #ea4230;
+        border-right: 10px solid transparent;
+        transform: rotate(-135deg);
+    }
+    .footer-wiget.footer-links ul {
+        margin-right: 39px;
+        margin-left: 21px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+    .header-area .col-lg-9 {
+        display: none;
+    }
+    .header-area .col-2 {
+        display: block !important;
+    }
+    .responsive-header {
+        display: block;
+        position: fixed;
+        z-index: 9999;
+        background: #030c0c;
+        width: 280px;
+        height: 100vh;
+        overflow: scroll;
+        top: 0;
+        left: 0;
+        margin-left: -280px;
+        transition: .3s;
+    }
+    .responsive-header.siteBar {
+        margin-left: 0;
+    }
+    .header-area .logo-area img {
+        width: 140px;
+    }
+    a.bar-icon {
+        color: #fff;
+        font-size: 32px;
+        margin-top: 45px;
+        display: block;
+    }
+    .responsive-header .nav {
+        margin-top: 50px;
+    }
+    
+    .responsive-header .nav li {
+        display: block;
+        width: 100%;
+    }
+    
+    .responsive-header .nav ul {
+        width: 100%;
+    }
+    
+    .responsive-header .nav li a {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 200;
+        padding: 5px 30px;
+        display: block;
+        transition: .3s;
+    }
+    
+    .responsive-header .nav li a:hover {
+        color: #be3f30;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card {
+        background: transparent;
+        padding: 0px;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card div#headingOne {
+        padding: 0 15px;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card div#headingOne h2.mb-0 button.btn.btn-link {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 300;
+        display: block;
+        width: 100%;
+        text-align: left;
+        text-decoration: none;
+    }
+    .responsive-header nav ul.social li {
+        display: inline-block;
+    }
+    
+    .responsive-header nav ul.social {
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .responsive-header nav ul.social li a {
+        color: #fff;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #be3f30;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 35px;
+        transition: .3s;
+        margin: 0 5px;
+    }
+    
+    .responsive-header nav ul.social li a:hover {
+        background: #be3f30;
+        border-color: #be3f30;
+    }
+    .responsive-header a.bar-icon {
+        position: absolute;
+        right: 30px;
+        top: -35px;
+    }
+    .footer-wiget.footer-links ul {
+        margin-right: 23px;
+        margin-left: 0px;
+    }
+    .subscribe-area .subscriube-form form .inp:last-child {
+        width: 70%; 
+    }
+    .seling-img img {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header-area .col-lg-9 {
+        display: none;
+    }
+    .header-area .col-2 {
+        display: block !important;
+    }
+    .responsive-header {
+        display: block;
+        position: fixed;
+        z-index: 9999;
+        background: #030c0c;
+        width: 280px;
+        height: 100vh;
+        overflow: scroll;
+        top: 0;
+        left: 0;
+        margin-left: -280px;
+        transition: .3s;
+    }
+    .responsive-header.siteBar {
+        margin-left: 0;
+    }
+    .header-area .logo-area img {
+        width: 80px;
+    }
+    a.bar-icon {
+        color: #fff;
+        font-size: 32px;
+        margin-top: 15px;
+        display: block;
+    }
+    .responsive-header .nav {
+        margin-top: 50px;
+    }
+    
+    .responsive-header .nav li {
+        display: block;
+        width: 100%;
+    }
+    
+    .responsive-header .nav ul {
+        width: 100%;
+    }
+    
+    .responsive-header .nav li a {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 200;
+        padding: 5px 30px;
+        display: block;
+        transition: .3s;
+    }
+    
+    .responsive-header .nav li a:hover {
+        color: #be3f30;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card {
+        background: transparent;
+        padding: 0px;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card div#headingOne {
+        padding: 0 15px;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card div#headingOne h2.mb-0 button.btn.btn-link {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 300;
+        display: block;
+        width: 100%;
+        text-align: left;
+        text-decoration: none;
+    }
+    .responsive-header nav ul.social li {
+        display: inline-block;
+    }
+    
+    .responsive-header nav ul.social {
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .responsive-header nav ul.social li a {
+        color: #fff;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #be3f30;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 35px;
+        transition: .3s;
+        margin: 0 5px;
+    }
+    
+    .responsive-header nav ul.social li a:hover {
+        background: #be3f30;
+        border-color: #be3f30;
+    }
+    .responsive-header a.bar-icon {
+        position: absolute;
+        right: 30px;
+        top: -10px;
+    }
+    .footer-wiget.footer-links ul {
+        margin-right: 82px;
+        margin-left: 0px;
+    }
+    .footer-wiget.footer-links ul:last-child {
+        margin-right: 0px; 
+    }
+    .subscribe-area .subscriube-form form .inp:last-child {
+        width: 65%;
+    }
+    .subscribe-area .subscriube-form form .inp {
+        width: 90%;
+        position: relative;
+        z-index: 2;
+        margin-top: 30px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .footer-area .footer-wiget {
+        margin-bottom: 50px;
+    }   
+    .section-title h2 {
+        font-size: 34px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .section-title {
+        margin-bottom: 0px;
+    }
+    .subscribe-area .subscriube-form h3 {
+        font-size: 19px; 
+    }
+    .subscribe-area .subscriube-form form {
+        display: block;
+        text-align: center;
+    }
+    .subscribe-area .subscriube-form form ::placeholder{
+        font-size: 16px;
+    }
+    .subscribe-area .subscriube-form form input[type="button"]{
+        font-size: 16px !important;
+        padding-bottom: 5px !important;
+    }
+    .subscribe-area .subscriube-form form .inp input {
+        width: 100%;
+        padding: 5px 19px;
+        padding-top: 5px;
+    }
+    .footer-area {
+        padding-bottom: 50px !important;
+    }
+
+    .hero-area .hero-wrep .hero-item h2 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+    .hero-area .hero-wrep {
+        margin-top: 220px;
+        margin-bottom: 80px;
+        background: rgba(0,0,0,.2);
+        align-content: center !important;
+        padding-top: 10px;
+    }
+    .theme-btn { 
+        font-size: 16px !important; 
+    }
+    .car-videos .single-car img {
+        width: 100%;
+    }
+    .seling-img img {
+        width: 100%;
+        height: 250px; 
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+    }
+    .footer-area .footer-wiget p {
+        color: #fcfafb;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .footer-wiget.footer-links ul li a {
+        display: block;
+        color: #fdfdfe;
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        transition: .3s;
+    }
+    .footer-wiget.contact-wiget ul li h6 {
+        position: relative;
+        padding-left: 30px;
+        font-size: 14px;
+        color: #fcf7f7;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    .item-slider .owl-stage-outer {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-area .col-lg-9 {
+        display: none;
+    }
+    .header-area .col-2 {
+        display: block !important;
+    }
+    .responsive-header {
+        display: block;
+        position: fixed;
+        z-index: 9999;
+        background: #030c0c;
+        width: 280px;
+        height: 100vh;
+        overflow: scroll;
+        top: 0;
+        left: 0;
+        margin-left: -280px;
+        transition: .3s;
+    }
+    .responsive-header.siteBar {
+        margin-left: 0;
+    }
+    .header-area .logo-area img {
+        width: 140px;
+    }
+    a.bar-icon {
+        color: #fff;
+        font-size: 32px;
+        margin-top: 45px;
+        display: block;
+    }
+    .responsive-header .nav {
+        margin-top: 50px;
+    }
+    
+    .responsive-header .nav li {
+        display: block;
+        width: 100%;
+    }
+    
+    .responsive-header .nav ul {
+        width: 100%;
+    }
+    
+    .responsive-header .nav li a {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 200;
+        padding: 5px 30px;
+        display: block;
+        transition: .3s;
+    }
+    
+    .responsive-header .nav li a:hover {
+        color: #be3f30;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card {
+        background: transparent;
+        padding: 0px;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card div#headingOne {
+        padding: 0 15px;
+    }
+    
+    .responsive-header .nav li div#accordionExample .card div#headingOne h2.mb-0 button.btn.btn-link {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 300;
+        display: block;
+        width: 100%;
+        text-align: left;
+        text-decoration: none;
+    }
+    .responsive-header nav ul.social li {
+        display: inline-block;
+    }
+    
+    .responsive-header nav ul.social {
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .responsive-header nav ul.social li a {
+        color: #fff;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #be3f30;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 35px;
+        transition: .3s;
+        margin: 0 5px;
+    }
+    
+    .responsive-header nav ul.social li a:hover {
+        background: #be3f30;
+        border-color: #be3f30;
+    }
+    .responsive-header a.bar-icon {
+        position: absolute;
+        right: 30px;
+        top: -35px;
+    }
+    .footer-wiget.footer-links ul {
+        margin-right: 23px;
+        margin-left: 0px;
+    }
+    .subscribe-area .subscriube-form form .inp:last-child {
+        width: 90%;
+    }
+    .subscribe-area .subscriube-form form .inp {
+        width: 100%;
+        margin: 0 5px;
+        position: relative;
+        z-index: 2;
+        margin-top: 30px;
+    }
+    .footer-area .footer-wiget {
+        margin-bottom: 50px;
+    }
+    .subscribe-area .subscriube-form form {
+        display: flex;
+        text-align: center;
+    }
+    .hero-area .hero-wrep .hero-item h2 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 52px;
+    }
+    .hero-area .hero-wrep {
+        margin-top: 340px; 
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 93%;
+    }
+    .owl-carousel .owl-item img { 
+        width: 100% !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
